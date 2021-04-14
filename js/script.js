@@ -14,7 +14,7 @@ $(function () {
   $(".messagebtn").click(function () {
     $("html,body").animate(
       {
-        scrollTop: $("#message").offset().top - 90,
+        scrollTop: $("#message").offset().top - 80,
       },
       500
     );
@@ -26,7 +26,7 @@ $(function () {
   $(".gallerybtn").click(function () {
     $("html,body").animate(
       {
-        scrollTop: $("#gallery").offset().top - 90,
+        scrollTop: $("#gallery").offset().top - 80,
       },
       500
     );
@@ -38,7 +38,7 @@ $(function () {
   $(".brandbtn").click(function () {
     $("html,body").animate(
       {
-        scrollTop: $("#brand").offset().top - 90,
+        scrollTop: $("#brand").offset().top - 80,
       },
       500
     );
@@ -50,7 +50,7 @@ $(function () {
   $(".projectbtn").click(function () {
     $("html,body").animate(
       {
-        scrollTop: $("#project").offset().top - 90,
+        scrollTop: $("#project").offset().top - 80,
       },
       500
     );
@@ -61,7 +61,7 @@ $(function () {
   $(".companybtn").click(function () {
     $("html,body").animate(
       {
-        scrollTop: $("#company").offset().top - 90,
+        scrollTop: $("#company").offset().top - 80,
       },
       500
     );
