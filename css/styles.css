@@ -270,10 +270,20 @@ span .bigphoto {
 .date{
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.date:hover{
+  text-decoration: underline;
+  opacity: 0.8;
 }
 
 .diary li{
   margin-top: 10px;
+}
+
+.hidendiary{
+  display: none;
 }
 
 footer {
@@ -300,4 +310,6 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
 /*# sourceMappingURL=styles.css.map */

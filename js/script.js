@@ -90,4 +90,16 @@ $(function () {
       $(".minimenu").css("display", "block");
     }
   });
+  $(".date").click(function(){
+    if ($(this).hasClass("hasDiary")){
+      $(this).removeClass("hasDiary");
+      $(".hidendiary").slideUp();
+    }else{
+      $(".date").removeClass("hasDiary");
+      $(".hidendiary").slideUp();
+      $(this).addClass("hasDiary");
+      $(this).next("ul").slideDown();
+
+    }
+  });
 });
