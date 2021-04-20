@@ -281,6 +281,9 @@ span .bigphoto {
 .diary li{
   margin-top: 10px;
 }
+.siteurl a{
+  color: white;
+}
 
 .hidendiary{
   display: none;
